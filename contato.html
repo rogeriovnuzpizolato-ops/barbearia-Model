@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia Model</title>
+  </head>
+  <body>
+    <header class="home__header">
+      <nav>
+        <div class="links__nav">
+          <a href="index.html">Home</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="sobreNos.html">Sobre nos</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </nav>
+      <section class="tittle_principal">
+        <div class="home__titlle">
+          <h1>Barbearia Model</h1>
+          <p>O seu estilo começa aqui</p>
+        </div>
+      </section>
+      <section class="div__logo">
+        <a href="index.html">
+          <img
+            src="/img/logo-barbearia-escrita.png"
+            alt="palavra barbearia escrita em dourado e Model escrita com letras brancas"
+            class="hero"
+          />
+        </a>
+      </section>
+      <section class="hero__page">
+        <div class="img__hero">
+          <img src="img/saguao-barbearia-contatos.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="form__dados-pessoais">
+        <form action="" method="get">
+          <fieldset>
+            <legend>Entre em Contato</legend>
+            <!-- ENTRE EM  CONTATO  -->
+            <label for="userName">Nome</label>
+            <input type="text" name="userName" required placeholder="Nome" />
+            <br />
+            <label for="userEmail">Email</label>
+            <input
+              type="email"
+              name="userEmail"
+              placeholder="digite seu email"
+            />
+            <br />
+            <label for="userPhoneNumber">Telefone</label>
+            <input
+              type="tel"
+              name="userPhoneNumber"
+              placeholder="digite seu Telefone"
+              pattern="[0-9]{11}"
+            />
+            <br />
+            <label for="assunto">assunto</label>
+            <input type="text" name="assunto" required />
+            <br />
+            <label for="userMsg">mensagen</label>
+            <textarea name="userMsg" id="userMsg">digite sua mensagen</textarea>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+        <section class="footer_logo">
+            <div class="img_logo_footer">
+                <img src="img/barbearia-logo.png" alt="">
+            </div>
+        </section>
+      <section class="home__footer">
+        <div class="footer_content">
+          <p class="text">site ficticio desenvolvido sem fins lucrativos</p>
+          <p class="text">projeto desenvolvido por Rogerio Luiz</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
