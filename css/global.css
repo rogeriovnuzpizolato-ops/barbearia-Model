@@ -40,3 +40,30 @@ a {
 ul {
   list-style: none;
 }
+
+/* header of all pages  */
+/* stile for mobile  */
+
+.home__header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.home__header .links__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: rgba(151, 151, 151, 0.493);
+}
+.home__header .home__text .home__titlle{
+  text-align: center;
+  font-size: 24px;
+}
+.home__header .home__text .home__titlle .first_tittle {
+  margin-bottom: 15px;
+}
