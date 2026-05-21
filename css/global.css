@@ -1,0 +1,42 @@
+/* RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBAL */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 40%,
+    rgb(131, 131, 131) 50%,
+    rgb(255, 255, 255)
+  );
+  color: rgb(243, 179, 5);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
