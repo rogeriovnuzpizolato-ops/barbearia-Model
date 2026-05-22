@@ -1,0 +1,64 @@
+/* header  */
+
+.hero__page .img__hero img{
+     -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+}
+/* main  */
+
+.main__sobreNos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__sobreNos .nossa_historia .titulo__sobreNos{
+    text-align: center;
+    padding: 10px;
+}
+.sobreNos__tittle{
+    font-size: 24px;
+    margin: 15px;
+}
+.sobreNos__texto{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+/* start card css  */
+
+.section_card{
+    display: flex;
+    flex-direction: column;
+}
+.servico_card .card_img{
+    margin: 0 auto;
+    width: 90%;
+}
+.sobreNos_img{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.card_texto{
+    text-align: center;
+    margin: 25px;
+}
+.card_texto .corte_name{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.card_texto .description{
+    font-size: 18px;
+}
