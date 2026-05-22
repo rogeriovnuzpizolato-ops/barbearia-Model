@@ -85,3 +85,18 @@ footer{
 .home__footer .footer_content{
   font-size: 16px;
 }
+
+.button__contato{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.button__contato p{
+  font-size: 20px;
+  margin: 15px;
+}
+.button__contato a {
+  background-color: rgba(44, 44, 44, 0.493);
+  font-size: 32px;
+  padding: 5px;
+  border-radius: 10px;
+}
