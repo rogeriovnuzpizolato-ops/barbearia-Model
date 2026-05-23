@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Barbearia Model</title>
   </head>
   <body>
@@ -32,55 +32,61 @@
       </section>
       <section class="hero__page">
         <div class="img__hero">
-          <img src="img/saguao-barbearia-contatos.png" alt="" />
+          <img src="img/saguao-barbearia-Model.png" alt="" />
         </div>
       </section>
     </header>
     <main>
-      <section class="form__dados-pessoais">
-        <form action="" method="get">
-          <fieldset>
-            <legend>Entre em Contato</legend>
-            <!-- ENTRE EM  CONTATO  -->
-            <label for="userName">Nome</label>
-            <input type="text" name="userName" required placeholder="Nome" />
-            <br />
-            <label for="userEmail">Email</label>
-            <input
-              type="email"
-              name="userEmail"
-              placeholder="digite seu email"
-            />
-            <br />
-            <label for="userPhoneNumber">Telefone</label>
-            <input
-              type="tel"
-              name="userPhoneNumber"
-              placeholder="digite seu Telefone"
-              pattern="[0-9]{11}"
-            />
-            <br />
-            <label for="assunto">assunto</label>
-            <input type="text" name="assunto" required />
-            <br />
-            <label for="userMsg">mensagen</label>
-            <textarea name="userMsg" id="userMsg">digite sua mensagen</textarea>
+      <section>
+        <form class="form__contato" action="" method="get">
+          <fieldset class="fieldset_form">
+            <legend class="legend_contato">Entre em Contato</legend>
+            <div class="dados_pessoais">
+              <label for="userName">Nome</label>
+              <input type="text" name="userName" required placeholder="Nome" />
+              <label for="userEmail">Email</label>
+              <input
+                type="email"
+                name="userEmail"
+                placeholder="digite seu email"
+              />
+               <label for="userPhoneNumber">Telefone</label>
+              <input
+                type="tel"
+                name="userPhoneNumber"
+                placeholder="digite seu Telefone"
+                pattern="[0-9]{11}"
+              />
+            </div>
 
-            <button type="submit">Enviar</button>
+            <div class="form_info">
+              
+              <label for="assunto">Corte Desejado</label>
+              <input type="text" name="assunto" required />
+              
+              <label for="userMsg">mensagen</label>
+              <textarea name="userMsg" id="userMsg" placeholder="Digite sua mensagem"></textarea>
+            </div>
 
+            <div class="contato_botoes">
+              <button class="button_enviar" type="submit">Enviar</button>
+              <button class="button_limpar" type="reset">Limpar</button>
+            </div>
           </fieldset>
         </form>
       </section>
     </main>
     <footer>
-         <section class="footer_logo">
+      <section class="footer_logo">
         <div class="img_logo_footer">
-          <img src="img/logo-barbearia-footer.png" alt="">
+          <img src="img/logo-barbearia-footer.png" alt="" />
         </div>
       </section>
       <section class="home__footer">
         <div class="footer_content">
-          <p class="text color_2">site ficticio desenvolvido sem fins lucrativos</p>
+          <p class="text color_2">
+            site ficticio desenvolvido sem fins lucrativos
+          </p>
           <p class="text color_2">projeto desenvolvido por Rogerio Luiz</p>
         </div>
       </section>

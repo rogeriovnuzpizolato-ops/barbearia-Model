@@ -101,3 +101,22 @@ footer{
   padding: 5px;
   border-radius: 10px;
 }
+
+/* banner css  */
+
+.hero__page .img__hero  {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+}

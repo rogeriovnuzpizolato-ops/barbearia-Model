@@ -1,21 +1,3 @@
-/* header  */
-
-.hero__page .img__hero img{
-     -webkit-mask-image: linear-gradient(
-    to bottom,
-    transparent,
-    black 20%,
-    black 80%,
-    transparent
-  );
-  mask-image: linear-gradient(
-    to bottom,
-    transparent,
-    black 20%,
-    black 80%,
-    transparent
-  );
-}
 /* main  */
 
 .main__sobreNos{
