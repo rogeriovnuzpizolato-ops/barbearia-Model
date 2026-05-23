@@ -44,7 +44,12 @@ ul {
 
 /* header of all pages  */
 /* stile for mobile  */
-
+.select{
+  color: rgb(170, 106, 23);
+  background-color: rgba(240, 248, 255, 0.568);
+  padding: 3px;
+  border-radius: 10px;
+}
 .home__header {
   display: flex;
   flex-direction: column;
@@ -101,4 +106,23 @@ footer{
   font-size: 32px;
   padding: 5px;
   border-radius: 10px;
+}
+
+/* banner css  */
+
+.hero__page .img__hero  {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
 }
