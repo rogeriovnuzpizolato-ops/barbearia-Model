@@ -18,6 +18,7 @@ html {
 }
 
 body {
+
   background: linear-gradient(
     180deg,
     rgb(0, 0, 0) 40%,
@@ -61,7 +62,7 @@ ul {
   gap: 20px;
   padding: 5px;
   margin-top: 15px;
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 10px;
   background-color: rgba(151, 151, 151, 0.493);
 }
