@@ -30,6 +30,12 @@
 .main_servicos .card_servico p{
     font-size: 18px;
 }
-.color_2{
-    color: rgb(173, 131, 25);
+@media screen and (min-width: 768px){
+   .main_servicos .card_servico h3{
+    font-size: 32px;
+   }
+   .main_servicos .card_servico p{
+    font-size: 24px;
+   }
 }
+
