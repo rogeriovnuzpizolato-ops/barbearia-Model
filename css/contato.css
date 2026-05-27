@@ -23,7 +23,7 @@
     flex-direction: column;
     gap: 10px;
 }
- input{
+input{
     width: 90%;
     height: 32px;
     text-align: center;
@@ -61,4 +61,19 @@ textarea{
    background-color: rgb(243, 5, 5);
     color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0); 
+}
+@media screen and (min-width: 768px){
+    input{
+        height: 48px;
+    }
+    textarea{
+        height: 64px;
+    }
+    .fieldset_form{
+        font-size: 32px;
+    }
+    .contato_botoes button{
+        width: 150px;
+        height: 48px;
+    }
 }
