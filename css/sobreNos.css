@@ -3,7 +3,7 @@
 .main__sobreNos{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 .main__sobreNos .nossa_historia .titulo__sobreNos{
     text-align: center;
@@ -19,6 +19,7 @@
     margin-bottom: 25px;
 }
 
+
 /* start card css  */
 
 .section_card{
@@ -30,6 +31,8 @@
     width: 90%;
 }
 .sobreNos_img{
+    margin: 0 auto;
+    width: 450px;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -43,4 +46,53 @@
 }
 .card_texto .description{
     font-size: 18px;
+}
+@media screen and (min-width: 768px){
+    .sobreNos__tittle{
+        font-size: 32px;
+        margin: 20px 25px;
+    }
+    .sobreNos__texto{
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .main__sobreNos{
+        display: flex;
+        flex-direction: column;
+    }
+    .nossa_historia{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .sobreNos__texto{
+        line-height: 35px;
+    }
+    .servico_card{
+        margin-bottom: 35px;
+    }
+    .card_img{
+        height: 550px;
+        margin: auto 0 ;
+    }
+    .card_texto .corte_name{
+        font-size: 32px;
+    }
+    .card_texto .description{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .main__sobreNos{
+        margin: 0 300px;
+    }
+    .sobreNos__tittle,.card_texto .corte_name{
+        font-size: 24px;
+    }
+    .sobreNos__texto,.card_texto .description{
+        font-size: 20px;
+    }
+    
 }
