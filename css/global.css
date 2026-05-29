@@ -189,9 +189,9 @@ footer {
   }
   .home__header .links__nav {
     height: 100%;
-    gap: 50px;
+    gap: 70px;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 50px;
     border: 1px solid rgba(151, 151, 151, 0.15);
     backdrop-filter: blur(10px);
@@ -211,7 +211,7 @@ footer {
   }
   .button__contato{
     width: 60%;
-    margin: 0 auto;
+    margin: 50px auto 200px;
   }
   /* footer  */
 
@@ -221,5 +221,17 @@ footer {
   }
   .home__footer .footer_content {
     font-size: 24px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .home__header .links__nav{
+    font-size: 20px;
+  }
+  .home__header .home__text{
+    font-size: 32px;
+  }
+  /* footer  */
+  .home__footer .footer_content {
+    font-size: 18px;
   }
 }

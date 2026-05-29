@@ -58,3 +58,14 @@
     height: 160px;
    }
 }
+@media screen and (min-width: 1440px){
+    .main_servicos .lista__servicos{
+        margin: 0 300px ;
+    }
+    .main_servicos .card_servico h3{
+        font-size: 20px;
+    }
+    .main_servicos .card_servico p{
+        font-size: 18px;
+    }
+}
