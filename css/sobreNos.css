@@ -3,7 +3,7 @@
 .main__sobreNos{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 .main__sobreNos .nossa_historia .titulo__sobreNos{
     text-align: center;
@@ -18,6 +18,7 @@
     line-height: 25px;
     margin-bottom: 25px;
 }
+
 
 /* start card css  */
 
@@ -54,5 +55,32 @@
     .sobreNos__texto{
         font-size: 24px;
         margin-bottom: 32px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .main__sobreNos{
+        display: flex;
+        flex-direction: column;
+    }
+    .nossa_historia{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .sobreNos__texto{
+        line-height: 35px;
+    }
+    .servico_card{
+        margin-bottom: 35px;
+    }
+    .card_img{
+        height: 550px;
+        margin: auto 0 ;
+    }
+    .card_texto .corte_name{
+        font-size: 32px;
+    }
+    .card_texto .description{
+        font-size: 24px;
     }
 }
